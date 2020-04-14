@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.a3zones.partsonline.controller")
+@ComponentScan(basePackages = {"com.a3zones.partsonline", "com.a3zones.partsbackend"})
 public class SpringConfig implements WebMvcConfigurer{
 	
 	@Bean

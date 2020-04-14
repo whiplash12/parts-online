@@ -6,3 +6,8 @@
 body {
   padding-top: 56px;
 }
+
+.dataTableImg {
+	width: 110px;
+	height: 80px;
+}
